@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\mahasiswaController; // Corrected import path
 
 Route::get('/', function () {
-    return view('mahasiswa.welcome');
+    return redirect('mahasiswa');
 });
 
 // Route::get('mahasiswa', 'App\Http\Controllers\MahasiswaController@index')->name('mahasiswa.index');
